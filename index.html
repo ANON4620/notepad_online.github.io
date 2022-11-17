@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Notepad Online</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <nav id="nav-bar">
+      <button id="file-menu-btn" class="dropdown-btn">File</button>
+      <div id="file-menu" class="dropdown">
+        <button id="open-btn" class="dropdown-content">Open<input type="file" id="file-browser"></button>
+        <button id="save-btn" class="dropdown-content">Save</button>
+      </div>
+    </nav>
+
+    <div class="flexbox">
+      <textarea id="textbox" autofocus></textarea>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
